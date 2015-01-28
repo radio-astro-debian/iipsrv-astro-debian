@@ -1,5 +1,5 @@
-iipsrv-astro (0.9.9+git20150123-1) unstable; urgency=low
+iipsrv-astro (0.9.9+git20150123-2trusty) trusty; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
  -- Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>  Fri, 23 Jan 2015 16:05:37 +0200
