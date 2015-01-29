@@ -1,3 +1,15 @@
+iipsrv-astro (0.9.9+git20150123-5trusty) trusty; urgency=medium
+
+  * install fcgi and apache config
+
+ -- Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>  Thu, 29 Jan 2015 10:41:52 +0200
+
+iipsrv-astro (0.9.9+git20150123-4trusty) trusty; urgency=medium
+
+  * reupload without patches
+
+ -- Gijs Molenaar (launchpad ppa build key) <gijs@pythonic.nl>  Wed, 28 Jan 2015 14:56:30 +0000
+
 iipsrv-astro (0.9.9+git20150123-3trusty) trusty; urgency=medium
 
   * added missing dependencies

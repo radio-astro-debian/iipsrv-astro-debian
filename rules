@@ -1,8 +1,16 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
-
 %:
 	dh $@  --with autotools-dev
+
+override_dh_install:
+	cp src/iipsrv.fcgi src/iipsrv-astro.fcgi
+	dh_install src/iipsrv-astro.fcgi usr/lib/iipsrv-astro
+	dh_install debian/iipsrv-astro.conf etc/apache2/mods-available
+	dh_install debian/iipsrv-astro.load etc/apache2/mods-available
+
+override_dh_clean:
+	dh_clean
+	rm -rf src/iipsrv-astro.fcgi
+	find fcgi -name Makefile -delete
